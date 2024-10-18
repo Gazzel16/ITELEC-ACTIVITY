@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Connection on Third-party API - API Ninjas</title>
+    <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+    <h1>Select a Cat Breed</h1>
+    <select id="breed-select">
+        <option value="">-- Select a breed --</option>
+    </select>
+
+    <div class="breed-details" id="breed-info" style="display: none;">
+        <h2 id="breed-name"></h2>
+        <p><strong>Origin:</strong> <span id="breed-origin"></span></p>
+        <img id="breed-image" src="" alt="Breed Image" style="display: none; max-width: 300px; height: auto; margin: 0 auto; padding-bottom: 20px;">
+        <p id="breed-description" style="padding-top: 10px;"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
